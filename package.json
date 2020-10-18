@@ -1,0 +1,12 @@
+{
+    "main": "scrape.js",
+    "scripts": {
+        "start": "node scrape.js"
+    },
+    "dependencies": {
+        "csv-parse": "^4.12.0",
+        "csv-stringify": "^5.5.1",
+        "jsdom": "^16.4.0",
+        "node-fetch": "^2.6.1"
+    }
+}
