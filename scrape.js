@@ -16,7 +16,7 @@ fetch('https://www.boulderwelt-muenchen-ost.de/ampel_2/')
     ).innerHTML;
 
     const now = new Date(
-      new Date().toLocaleString('de-DE', { timeZone: 'Europe/Berlin' })
+      new Date().toLocaleString('de-DE', { timeZone: 'Europe/Amsterdam' })
     );
 
     const totals = () => {
