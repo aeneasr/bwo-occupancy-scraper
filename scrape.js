@@ -23,7 +23,6 @@ fetch('https://www.boulderwelt-muenchen-ost.de/wp-admin/admin-ajax.php', {
   .then((res) => res.json())
   .then((stats) => {
     const { queue, percent } = stats;
-    console.log(stats);
     const now = new Date(
       new Date().toLocaleString('en-US', { timeZone: 'Europe/Amsterdam' })
     );
