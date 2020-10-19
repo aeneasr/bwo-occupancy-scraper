@@ -1,5 +1,4 @@
 const fetch = require('node-fetch');
-const { JSDOM } = require('jsdom');
 const csv = require('csv-stringify');
 const parse = require('csv-parse');
 const path = require('path');
